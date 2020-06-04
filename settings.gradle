@@ -1,0 +1,10 @@
+rootProject.name = 'cloud_sample'
+include "service-eureka2"
+include "service-eureka1"
+include  "service-zuul"
+include  "service-provide-user"
+include  "service-provide-order"
+include  "service-fegin-consumer"
+include  "service-common"
+
+

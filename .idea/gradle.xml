@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="GradleMigrationSettings" migrationVersion="1" />
+  <component name="GradleSettings">
+    <option name="linkedExternalProjectsSettings">
+      <GradleProjectSettings>
+        <option name="delegatedBuild" value="true" />
+        <option name="testRunner" value="GRADLE" />
+        <option name="disableWrapperSourceDistributionNotification" value="true" />
+        <option name="distributionType" value="DEFAULT_WRAPPED" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="gradleHome" value="$PROJECT_DIR$/../../../gradle-6.1.1" />
+        <option name="modules">
+          <set>
+            <option value="$PROJECT_DIR$" />
+            <option value="$PROJECT_DIR$/service-common" />
+            <option value="$PROJECT_DIR$/service-eureka1" />
+            <option value="$PROJECT_DIR$/service-eureka2" />
+            <option value="$PROJECT_DIR$/service-fegin-consumer" />
+            <option value="$PROJECT_DIR$/service-provide-order" />
+            <option value="$PROJECT_DIR$/service-provide-user" />
+            <option value="$PROJECT_DIR$/service-zuul" />
+          </set>
+        </option>
+        <option name="useQualifiedModuleNames" value="true" />
+      </GradleProjectSettings>
+      <GradleProjectSettings>
+        <option name="distributionType" value="DEFAULT_WRAPPED" />
+        <option name="externalProjectPath" value="E:\Java\code\项目汇总\cloud_sample\common" />
+        <option name="gradleHome" value="$PROJECT_DIR$/../../../gradle-6.1.1" />
+        <option name="useQualifiedModuleNames" value="true" />
+      </GradleProjectSettings>
+      <GradleProjectSettings>
+        <option name="distributionType" value="DEFAULT_WRAPPED" />
+        <option name="externalProjectPath" value="E:\Java\code\项目汇总\cloud_sample\common-entities" />
+        <option name="gradleHome" value="$PROJECT_DIR$/../../../gradle-6.1.1" />
+        <option name="useQualifiedModuleNames" value="true" />
+      </GradleProjectSettings>
+      <GradleProjectSettings>
+        <option name="distributionType" value="DEFAULT_WRAPPED" />
+        <option name="externalProjectPath" value="E:\Java\code\项目汇总\cloud_sample\common-service" />
+        <option name="gradleHome" value="$PROJECT_DIR$/../../../gradle-6.1.1" />
+        <option name="useQualifiedModuleNames" value="true" />
+      </GradleProjectSettings>
+      <GradleProjectSettings>
+        <option name="distributionType" value="DEFAULT_WRAPPED" />
+        <option name="externalProjectPath" value="E:\Java\code\项目汇总\cloud_sample\config" />
+        <option name="gradleHome" value="$PROJECT_DIR$/../../../gradle-6.1.1" />
+        <option name="useQualifiedModuleNames" value="true" />
+      </GradleProjectSettings>
+      <GradleProjectSettings>
+        <option name="distributionType" value="DEFAULT_WRAPPED" />
+        <option name="externalProjectPath" value="E:\Java\code\项目汇总\cloud_sample\demo" />
+        <option name="gradleHome" value="$PROJECT_DIR$/../../../gradle-6.1.1" />
+        <option name="useQualifiedModuleNames" value="true" />
+      </GradleProjectSettings>
+      <GradleProjectSettings>
+        <option name="distributionType" value="DEFAULT_WRAPPED" />
+        <option name="externalProjectPath" value="E:\Java\code\项目汇总\cloud_sample\eureka" />
+        <option name="gradleHome" value="$PROJECT_DIR$/../../../gradle-6.1.1" />
+        <option name="useQualifiedModuleNames" value="true" />
+      </GradleProjectSettings>
+      <GradleProjectSettings>
+        <option name="distributionType" value="DEFAULT_WRAPPED" />
+        <option name="externalProjectPath" value="E:\Java\code\项目汇总\cloud_sample\first-service-eureka" />
+        <option name="gradleHome" value="$PROJECT_DIR$/../../../gradle-6.1.1" />
+        <option name="useQualifiedModuleNames" value="true" />
+      </GradleProjectSettings>
+      <GradleProjectSettings>
+        <option name="delegatedBuild" value="true" />
+        <option name="testRunner" value="GRADLE" />
+        <option name="distributionType" value="DEFAULT_WRAPPED" />
+        <option name="externalProjectPath" value="E:\Java\code\项目汇总\cloud_sample\sample-eureka" />
+        <option name="gradleHome" value="$PROJECT_DIR$/../../../gradle-6.1.1" />
+        <option name="useQualifiedModuleNames" value="true" />
+      </GradleProjectSettings>
+      <GradleProjectSettings>
+        <option name="delegatedBuild" value="true" />
+        <option name="testRunner" value="GRADLE" />
+        <option name="distributionType" value="DEFAULT_WRAPPED" />
+        <option name="externalProjectPath" value="E:\Java\code\项目汇总\cloud_sample\sample-zoo" />
+        <option name="gradleHome" value="$PROJECT_DIR$/../../../gradle-6.1.1" />
+        <option name="gradleJvm" value="#JAVA_HOME" />
+        <option name="useQualifiedModuleNames" value="true" />
+      </GradleProjectSettings>
+      <GradleProjectSettings>
+        <option name="distributionType" value="DEFAULT_WRAPPED" />
+        <option name="externalProjectPath" value="E:\Java\code\项目汇总\cloud_sample\se-service-eureka" />
+        <option name="gradleHome" value="$PROJECT_DIR$/../../../gradle-6.1.1" />
+        <option name="useQualifiedModuleNames" value="true" />
+      </GradleProjectSettings>
+      <GradleProjectSettings>
+        <option name="distributionType" value="DEFAULT_WRAPPED" />
+        <option name="externalProjectPath" value="E:\Java\code\项目汇总\cloud_sample\service-common" />
+        <option name="gradleHome" value="$PROJECT_DIR$/../../../gradle-6.1.1" />
+        <option name="useQualifiedModuleNames" value="true" />
+      </GradleProjectSettings>
+      <GradleProjectSettings>
+        <option name="distributionType" value="DEFAULT_WRAPPED" />
+        <option name="externalProjectPath" value="E:\Java\code\项目汇总\cloud_sample\service-fegin-consumer" />
+        <option name="gradleHome" value="$PROJECT_DIR$/../../../gradle-6.1.1" />
+        <option name="useQualifiedModuleNames" value="true" />
+      </GradleProjectSettings>
+      <GradleProjectSettings>
+        <option name="distributionType" value="DEFAULT_WRAPPED" />
+        <option name="externalProjectPath" value="E:\Java\code\项目汇总\cloud_sample\service-provide-order" />
+        <option name="gradleHome" value="$PROJECT_DIR$/../../../gradle-6.1.1" />
+        <option name="useQualifiedModuleNames" value="true" />
+      </GradleProjectSettings>
+      <GradleProjectSettings>
+        <option name="distributionType" value="DEFAULT_WRAPPED" />
+        <option name="externalProjectPath" value="E:\Java\code\项目汇总\cloud_sample\service-provide-user" />
+        <option name="gradleHome" value="$PROJECT_DIR$/../../../gradle-6.1.1" />
+        <option name="useQualifiedModuleNames" value="true" />
+      </GradleProjectSettings>
+      <GradleProjectSettings>
+        <option name="distributionType" value="DEFAULT_WRAPPED" />
+        <option name="externalProjectPath" value="E:\Java\code\项目汇总\cloud_sample\service-zuul" />
+        <option name="gradleHome" value="$PROJECT_DIR$/../../../gradle-6.1.1" />
+        <option name="useQualifiedModuleNames" value="true" />
+      </GradleProjectSettings>
+      <GradleProjectSettings>
+        <option name="distributionType" value="DEFAULT_WRAPPED" />
+        <option name="externalProjectPath" value="E:\Java\code\项目汇总\cloud_sample\web-consumer" />
+        <option name="gradleHome" value="$PROJECT_DIR$/../../../gradle-6.1.1" />
+        <option name="useQualifiedModuleNames" value="true" />
+      </GradleProjectSettings>
+      <GradleProjectSettings>
+        <option name="distributionType" value="DEFAULT_WRAPPED" />
+        <option name="externalProjectPath" value="E:\Java\code\项目汇总\cloud_sample\web-custom" />
+        <option name="gradleHome" value="$PROJECT_DIR$/../../../gradle-6.1.1" />
+        <option name="useQualifiedModuleNames" value="true" />
+      </GradleProjectSettings>
+      <GradleProjectSettings>
+        <option name="distributionType" value="DEFAULT_WRAPPED" />
+        <option name="externalProjectPath" value="E:\Java\code\项目汇总\cloud_sample\web-peovider2" />
+        <option name="gradleHome" value="$PROJECT_DIR$/../../../gradle-6.1.1" />
+        <option name="useQualifiedModuleNames" value="true" />
+      </GradleProjectSettings>
+      <GradleProjectSettings>
+        <option name="distributionType" value="DEFAULT_WRAPPED" />
+        <option name="externalProjectPath" value="E:\Java\code\项目汇总\cloud_sample\web-provider1" />
+        <option name="gradleHome" value="$PROJECT_DIR$/../../../gradle-6.1.1" />
+        <option name="useQualifiedModuleNames" value="true" />
+      </GradleProjectSettings>
+      <GradleProjectSettings>
+        <option name="distributionType" value="DEFAULT_WRAPPED" />
+        <option name="externalProjectPath" value="E:\Java\code\项目汇总\cloud_sample\web-provider2" />
+        <option name="gradleHome" value="$PROJECT_DIR$/../../../gradle-6.1.1" />
+        <option name="useQualifiedModuleNames" value="true" />
+      </GradleProjectSettings>
+      <GradleProjectSettings>
+        <option name="distributionType" value="DEFAULT_WRAPPED" />
+        <option name="externalProjectPath" value="E:\Java\code\项目汇总\cloud_sample\zool" />
+        <option name="gradleHome" value="$PROJECT_DIR$/../../../gradle-6.1.1" />
+        <option name="useQualifiedModuleNames" value="true" />
+      </GradleProjectSettings>
+      <GradleProjectSettings>
+        <option name="distributionType" value="DEFAULT_WRAPPED" />
+        <option name="externalProjectPath" value="E:\Java\code\项目汇总\cloud_sample\zuul" />
+        <option name="gradleHome" value="$PROJECT_DIR$/../../../gradle-6.1.1" />
+        <option name="useQualifiedModuleNames" value="true" />
+      </GradleProjectSettings>
+    </option>
+  </component>
+</project>

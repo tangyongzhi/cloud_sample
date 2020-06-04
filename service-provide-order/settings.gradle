@@ -1,0 +1,2 @@
+rootProject.name = 'service-provide-order'
+includeFlat"service-common"

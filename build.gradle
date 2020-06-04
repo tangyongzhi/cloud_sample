@@ -1,0 +1,77 @@
+
+buildscript {
+    ext {
+        springBootVersion = '2.0.5.RELEASE'
+        springCloudVersion = 'Finchley.SR3'
+    }
+    repositories {
+        maven { url 'http://maven.aliyun.com/nexus/content/groups/public/' }
+        jcenter()
+        mavenCentral()
+        mavenLocal()
+    }
+    dependencies {//用来打包
+        classpath("org.springframework.boot:spring-boot-gradle-plugin:${springBootVersion}")
+    }
+}
+
+allprojects {
+        group 'com.sample'
+        version = '1.0'
+    apply plugin: 'idea'
+    apply plugin: 'java'
+
+    //指定编码格式
+    tasks.withType(JavaCompile) {
+        options.encoding = "UTF-8"
+    }
+}
+
+//设定子模块的通用配置
+subprojects {
+    repositories {
+        maven { url 'http://maven.aliyun.com/nexus/content/groups/public/' }
+        jcenter()
+        mavenCentral()
+        mavenLocal()
+    }
+    //spring boot 插件
+    apply plugin: 'org.springframework.boot'
+    //Gradle插件，提供类似Maven的依赖关系管理功能
+    apply plugin: 'io.spring.dependency-management'
+    // 指定JDK版本
+    sourceCompatibility = 1.8
+    targetCompatibility = 1.8
+    ext {//依赖版本
+        fastjsonVersion = "1.2.54"
+    }
+    dependencies {
+       // implementation("org.springframework.boot:spring-boot-starter-log4j2:$springBootVersion")
+        implementation('org.springframework.boot:spring-boot-starter-web')
+        implementation('org.springframework.boot:spring-boot-actuator')
+        implementation('io.springfox:springfox-swagger2:2.8.0')
+        implementation('io.springfox:springfox-swagger-ui:2.8.0')
+        implementation("org.apache.commons:commons-lang3:3.8.1")
+        implementation("org.projectlombok:lombok")
+        compileOnly 'org.projectlombok:lombok:1.18.10'
+        annotationProcessor 'org.projectlombok:lombok:1.18.10'
+       testImplementation("org.springframework.boot:spring-boot-starter-test:$springBootVersion")
+        testImplementation("junit:junit:4.12")
+    }
+    configurations {
+        //remove default logger
+        all*.exclude group: 'org.springframework.boot', module: 'spring-boot-starter-logging'
+        all*.exclude group: 'org.slf4j', module: 'slf4j-log4j12'
+    }
+    dependencyManagement {
+        imports {
+            //spring bom帮助我们在不指定版本号的情况下声明依赖项。
+            mavenBom "org.springframework.cloud:spring-cloud-dependencies:${springCloudVersion}"
+        }
+    }
+
+
+
+}
+
+

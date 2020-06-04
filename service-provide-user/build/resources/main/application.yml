@@ -1,0 +1,37 @@
+
+##端口号
+server:
+  port: 8001
+
+##数据库配置
+##数据库地址
+spring:
+  application:
+    name: provider-user
+  datasource:
+    url: jdbc:mysql://127.0.0.1:3306/cloudsample?useUnicode=true&characterEncoding=UTF-8&useSSL=false&serverTimezone=Asia/Shanghai&zeroDateTimeBehavior=CONVERT_TO_NULL
+    username: root
+    password: root
+    ##数据库驱动
+    driver-class-name: com.mysql.cj.jdbc.Driver
+
+    ##控制台打印sql
+  jpa:
+    show-sql: true
+    hibernate:
+      ddl-auto: create
+      naming:
+        physical-strategy: org.hibernate.boot.model.naming.PhysicalNamingStrategyStandardImpl
+      #spring.jpa.hibernate.naming.physical-strategy=org.hibernate.boot.model.naming.PhysicalNamingStrategyStandardImpl
+      ##validate  加载hibernate时，验证创建数据库表结构
+      ##create   每次加载hibernate，重新创建数据库表结构，这就是导致数据库表数据丢失的原因。
+      ##create-drop        加载hibernate时创建，退出是删除表结构
+      ##update                 加载hibernate自动更新数据库结构
+      ##validate 启动时验证表的结构，不会创建表
+      ##none  启动时不做任何操作
+eureka:
+  client:
+    service-url:
+      defaultZone: http://admin:123123@127.0.0.1:8081/eureka
+    registry-fetch-interval-seconds: 5
+debug: true

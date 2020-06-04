@@ -1,0 +1,33 @@
+server:
+  port: 8080
+spring:
+  application:
+    name: zuul
+  cloud:
+    loadbalancer:
+      retry:
+        enabled: true
+eureka:
+  client:
+    service-url:
+      defaultZone: http://127.0.0.1:8081/eureka,http://127.0.0.1:8082/eureka
+    registry-fetch-interval-seconds: 5
+#配置对外访问的网关
+zuul:
+  routes:
+    provider-order:
+      url: 'http://localhost:8002'
+    provider-user:
+      url: 'http://localhost:8001'
+    fegin-consumer:
+      url: 'http://localhost:8091'
+
+
+
+
+
+
+
+
+
+

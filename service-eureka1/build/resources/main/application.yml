@@ -1,0 +1,15 @@
+server:
+  port: 8081
+spring:
+  application:
+    name: eureka1
+  security:
+    user:
+      name: admin
+      password: 123123
+eureka:
+  client:
+    service-url:
+      defaultZone: http://admin:123456@127.0.0.1:8082/eureka,http://127.0.0.1:8081/eureka
+      register-with-eureka: true
+    fetch-registry: false

@@ -1,0 +1,21 @@
+
+
+#配置服务器端口号
+server:
+  port: 8091
+#服务名
+spring:
+  application:
+    name: service-consumer
+  mvc:
+    #访问静态资源
+    static-path-pattern: /static/**
+
+eureka:
+  client:
+    service-url:
+      defaultZone: http://admin:123123@127.0.0.1:8081/eureka
+feign:
+  hystrix:
+    enabled: false
+debug: true
